@@ -1,0 +1,39 @@
+{
+  "timeZone": "America/Argentina/Buenos_Aires",
+  "dependencies": {
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/spreadsheets.currentonly",
+    "https://www.googleapis.com/auth/script.external_request",
+    "https://www.googleapis.com/auth/script.scriptapp"
+  ],
+  "addOns": {
+    "common": {
+      "name": "Binance to Google Sheets",
+      "logoUrl": "https://raw.githubusercontent.com/diegomanuel/binance-to-google-sheets/master/img/binance-to-google-sheets-logo.png"
+    },
+    "sheets": {
+      "homepageTrigger": {
+        "enabled": false,
+        "runFunction": ""
+      }
+    }
+  },
+  "urlFetchWhitelist": [
+    "https://api.binance.com/",
+    "https://api1.binance.com/",
+    "https://api2.binance.com/",
+    "https://api3.binance.com/",
+    "https://fapi.binance.com/",
+    "https://dapi.binance.com/",
+    "https://btgs-proxy.setupme.io:4000/",
+    "https://btgs-proxy.setupme.io:4001/",
+    "https://btgs-proxy.setupme.io:4002/",
+    "https://btgs-proxy.setupme.io:4003/",
+    "https://btgs-proxy.setupme.io:4004/",
+    "https://btgs-proxy.setupme.io:4005/",
+    "https://data.binance.com/"
+  ]
+}
