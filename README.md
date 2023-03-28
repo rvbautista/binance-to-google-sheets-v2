@@ -1,6 +1,6 @@
 ##Binance to Google Sheets v2!
 
-This is essentially a fork from diegomanuel's Binance to Google Sheets script set.
+This is essentially a fork from diegomanuel's Binance to Google Sheets script set. Check his repository here: https://github.com/diegomanuel/binance-to-google-sheets
 
 This accompanies the Lido tutorial linking to this repository.
 
